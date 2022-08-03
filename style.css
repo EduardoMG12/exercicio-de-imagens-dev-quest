@@ -1,0 +1,92 @@
+h2,
+p {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.pictures ul {
+    padding-block: 1.5rem;
+}
+
+.pictures li {
+    list-style: none;
+    padding-inline: 1.5rem;
+
+}
+
+.pictures li img {
+    width: 100%;
+}
+
+.rome {
+    background-image: url(./lista-imagens-pinturas/imagens/rome.png);
+    background-repeat: no-repeat;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.textmargin {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.boat {
+    background-image: url(./lista-imagens-pinturas/imagens/boat.png);
+    background-repeat: no-repeat;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.sandandsea {
+    background-image: url(./lista-imagens-pinturas/imagens/sand-and-sea.png);
+    background-repeat: no-repeat;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.night {
+    background-image: url(./lista-imagens-pinturas/imagens/starry-night.png);
+    background-repeat: no-repeat;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+@media (min-width:1600px) {
+    .pictures {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pictures ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .pictures ul li {
+        height: 335px;
+    }
+
+    .pictures li {
+        margin: 0;
+        padding: 0;
+        width: 360px;
+    }
+}
